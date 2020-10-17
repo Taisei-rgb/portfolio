@@ -1,0 +1,23 @@
+.home__name {
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",
+  "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  padding: 38px 9.2%;
+  color: #616060;
+}
+
+.name{
+  font-weight: 800;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.marker{
+  background-image: linear-gradient(to top,#f8fc03 38%,transparent 10%);
+}
+
+.home__discription{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+}
