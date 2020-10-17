@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div style={{ height: '300px' }}>
-        <Layout fixedHeader>
+        <Layout fixedHeader >
           <Header
             className="header-color"
             title={<span style={{ color: 'black' }} >TAISEI KATAGIRI</span>}
