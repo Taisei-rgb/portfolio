@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Layout, Header, Navigation, Content } from "react-mdl"
+import { Layout, Header, Navigation, Content } from "react-mdl";
+import Main from "./components/main";
+import { Link } from "react-router-dom";
 
 class App extends Component {
   render() {
@@ -11,14 +13,15 @@ class App extends Component {
             className="header-color"
             title={<span style={{ color: 'black' }} >TAISEI KATAGIRI</span>}>
             <Navigation >
-              <a href="#" style={{ color: 'black' }}>HOME</a>
-              <a href="#" style={{ color: 'black' }}>ABOUT</a>
-              <a href="#" style={{ color: 'black' }}>WORK</a>
-              <a href="#" style={{ color: 'black' }}>CONTACT</a>
+              <Link to="/" style={{ color: 'black' }}>HOME</Link>
+              <Link to="/about" style={{ color: 'black' }}>ABOUT</Link>
+              <Link to="/work" style={{ color: 'black' }}>WORK</Link>
+              <Link to="/contact" style={{ color: 'black' }}>CONTACT</Link>
             </Navigation>
           </Header>
           <Content>
             <div className="page-content" />
+            <Main />
           </Content>
           <Content />
         </Layout>
