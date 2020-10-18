@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import "./home.css"
+import cosmos from '../images/cosmos.JPG'
+import purple_flower from '../images/purple_flower.JPG'
+import yellow_flower from '../images/yellow_flower.JPG'
+import cat1 from '../images/cat1.JPG'
 
 class About extends Component {
   render() {
@@ -61,8 +65,7 @@ class About extends Component {
           ITパスポート / ITILファンデーション / Comptia Network + / Comptia Server +
           <br></br>
           <br></br>
-          現在はReact, Reduxなどのモダンなフロントエンドの技術を学習しています。<br></br>
-          また、デザインにも興味があります。
+          現在はReact, Reduxなどのモダンなフロントエンドの技術を学習しています。
         </div>
         <div className="name" ><span className="marker">Cover Music</span></div>
           <div className="home__discription">

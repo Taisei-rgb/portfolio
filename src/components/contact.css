@@ -1,0 +1,9 @@
+.footer__share {
+  margin: 0;
+  padding: 0;
+}
+
+.contact__list{
+  display: inline-block;
+  margin: 0 6px;
+}
