@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./home.css"
 
 class Contact extends Component {
   render() {
@@ -7,12 +8,13 @@ class Contact extends Component {
           <div className="home__name">
             <div className="name" ><span className="marker">Social Media</span></div>
             <div className="home__discription">
-              Thanks for viewing my portfolio.<br></br>
+              Thanks for viewing my portfolio.
+              <br></br>
               I am a Japanese Web Developper, Artist based in Tokyo. Born in Fukushima.
             </div>
             <div className="name" ><span className="marker">Say Hi</span></div>
             <div className="home__discription">
-              お仕事関連のご連絡はこちらからお願いします。
+              お仕事関連のご連絡等はこちらからお願いします。
             </div>            
           </div>
       </div>

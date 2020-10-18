@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./home.css"
 
 class Work extends Component {
   render() {
@@ -7,9 +8,10 @@ class Work extends Component {
         <div className="home__name">
           <div className="name" ><span className="marker">Projects that I've worked on</span></div>
           <div className="home__discription">
-            Thanks for viewing my portfolio.<br></br>
-              I am a Japanese Web Developper, Artist based in Tokyo. Born in Fukushima.
-            </div>
+            私が3ヶ月間、テックキャンプでプログラミングを学習し、カリキュラム終了後に
+            <br></br>
+            励んできた個人開発アプリを紹介します。
+          </div>
         </div>
       </div>
     )
