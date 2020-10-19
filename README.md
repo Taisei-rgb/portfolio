@@ -5,8 +5,7 @@
 URL : https://t-k-portfolio.herokuapp.com/
  
 # DEMO
-
-
+![portfolio](https://user-images.githubusercontent.com/69156263/96407445-59359480-121c-11eb-971c-e655581df828.gif)
  
 # 工夫した点
 * ストレスなく画面遷移ができるよう、SPAに対応しております。
