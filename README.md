@@ -1,7 +1,5 @@
 # Portfolio
-私のポートフォリオサイトです。
-<br>
-Reactで実装しており、SPAに対応しております。
+こちらは私のポートフォリオサイトです。
  
 # 本番環境
 URL : https://t-k-portfolio.herokuapp.com/
