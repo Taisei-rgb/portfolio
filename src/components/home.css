@@ -5,18 +5,22 @@
   color: #616060;
 }
 
-.name{
+.name {
   font-weight: 800;
   margin-top: 70px;
   margin-bottom: 30px;
   font-size: 32px;
 }
 
-.marker{
+.item {
+  margin-top: 12px;
+}
+
+.marker {
   background-image: linear-gradient(to top,#f8fc03 38%,transparent 10%);
 }
 
-.home__discription{
+.home__discription {
   font-weight: 400;
   font-size: 16px;
   line-height: 29px;

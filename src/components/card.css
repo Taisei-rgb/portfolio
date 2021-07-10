@@ -8,29 +8,29 @@
   margin-top: 40px;
 }
 
-.card__link{
+.card__link {
   text-decoration: none;
 }
 
-.card__img{
+.card__img {
   width: 400px;
   height: 200px;
   object-fit: cover;
 }
 
-.card__content{
+.card__content {
   height: 200px;
   color: #616060;
 }
 
-.card__title{
+.card__title {
   text-align: center;
   font-size: 24px;
   margin: 18px 0;
   font-weight: 800;
 }
 
-.card__description{
+.card__description {
   padding: 0 40px;
   font-size: 12px;
   font-weight: 400;
