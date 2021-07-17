@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import github from '../images/icons/github.png'
 import facebook from '../images/icons/facebook.jpg'
-import "./contact.css"
-import "./common.css"
+import "./contact.css";
+import "./common.css";
 
 class Contact extends Component {
   render() {

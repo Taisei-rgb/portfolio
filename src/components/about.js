@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import SimpleSlider from "./slider";
-import "./about.css"
-import "./common.css"
+import "./about.css";
+import "./common.css";
 
 class About extends Component {
   render() {

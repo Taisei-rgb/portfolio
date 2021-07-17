@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Card from "./card"
-import kitchHike from "../images/cards/kitchhike.jpg"
-import "./common.css"
+import Card from "./card";
+import kitchHike from "../images/cards/kitchhike.jpg";
+import "./common.css";
 
 class Work extends Component {
   render() {
