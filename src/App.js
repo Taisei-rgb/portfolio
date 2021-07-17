@@ -1,34 +1,29 @@
 import React, { Component } from 'react';
-import './App.css';
-import { Layout, Header, Navigation, Content } from "react-mdl";
 import Main from "./components/main";
 import { Link } from "react-router-dom";
-
+import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div style={{ height: '300px' }}>
-        <Layout fixedHeader >
-          <Header
-            className="header-color"
-            title={<span style={{ color: 'black' }} >TAISEI KATAGIRI</span>}
-            scroll
-          >
-            <Navigation >
-              <Link to="/" style={{ color: 'black' }}>HOME</Link>
-              <Link to="/about" style={{ color: 'black' }}>ABOUT</Link>
-              <Link to="/work" style={{ color: 'black' }}>WORK</Link>
-              <Link to="/contact" style={{ color: 'black' }}>CONTACT</Link>
-            </Navigation>
-          </Header>
-          <Content>
-            <div className="page-content" />
-            <Main />
-          </Content>
-          <Content />
-        </Layout>
-      </div>
+      <>
+        <div className="header">
+          <div className="header__nav">
+            <span className="nav__title">
+              TAISEI KATAGIRI
+            </span>
+            <div className="nav__list">
+              <Link to="/" className="nav__link">HOME</Link>
+              <Link to="/about" className="nav__link">ABOUT</Link>
+              <Link to="/work" className="nav__link">WORK</Link>
+              <Link to="/contact" className="nav__link">CONTACT</Link>
+            </div>
+          </div>
+        </div>
+        <div className="page-content">
+          <Main />
+        </div>
+      </>
     );
   }
 }
